@@ -2,6 +2,5 @@ numpy == 1.19.5
 tensorflow == 2.6.0
 matplotlib == 3.2.2
 PIL == 7.1.2
-python-3.8.5
 streamlit
 h5py == 2.10.0
