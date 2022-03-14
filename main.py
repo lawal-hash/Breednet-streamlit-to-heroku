@@ -40,7 +40,7 @@ def preprocess(uploaded_file):
 
 def predict(processed_image):
     model = create_model()
-    model.load_weights("/Users/sophialawal/PycharmProjects/BreedNet/weights.h5")
+    model.load_weights('weights.h5')
     y_pred = model.predict(processed_image)
     idx = int(tf.argmax(y_pred, 1))
     probability = y_pred[0][idx]
